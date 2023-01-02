@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topNav {
+    overflow: hidden;
+    background: #e9e9e9;
+}
+
+.topNav a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.7rem;
+}
+
+.topNav a:hover {
+    background-color: #ddd;
+}
+
+.topNav a.active {
+    background-color: #2196f3;
+    color: white;
+}
+
+.topNav .searchContainer {
+    float: right;
+    margin-top: 8px;
+}
+
+.topNav input[type="text"] {
+    padding: 6px;
+    font-size: 1.7rem;
+    border: none;
+}
+
+.topNav button {
+    font-size: 1.7rem;
+    float: right;
+    padding: 6px 10px;
+    margin-right: 16px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.topNav button:hover {
+    background: #ccc;
+}
+
+@media (max-width: 600px) {
+    .topNav .searchContainer {
+        float: none;
+    }
+
+    .topNav a,
+    .topNav input[type="text"],
+    .topNav button {
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+}

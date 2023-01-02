@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap"
+            rel="stylesheet" />
+        <!-- font icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Responsive Top Navigation</title>
+    </head>
+    <body onresize="handleResponsive()">
+        <div class="top-nav">
+            <div class="left-nav">
+                <a href="#!" onclick="showLeftSideBar()"
+                    ><i class="fa-solid fa-bars"></i
+                ></a>
+                <a href="#!"><i class="fa-solid fa-house-chimney"></i></a>
+                <a href="#!">HTML</a>
+                <a href="#!">CSS</a>
+                <a href="#!" id="javascript">JAVASCRIPT</a>
+                <a href="#!">SQL</a>
+                <a href="#!">PYTHON</a>
+                <a href="#!">PHP</a>
+                <a href="#!">BOOTSTRAP</a>
+                <a href="#!" class="active">HOW TO</a>
+                <a href="#!">W3.CSS</a>
+                <a href="#!">C</a>
+                <a href="#!">C++</a>
+                <a href="#!">C#</a>
+                <a href="#!">REACT</a>
+                <a href="#!">R</a>
+                <a href="#!">JQUERY</a>
+                <a href="#!">DJANGO</a>
+                <a href="#!">TYPESCRIPT</a>
+                <a href="#!">NODEJS</a>
+                <a href="#!">MYSQL</a>
+            </div>
+            <div class="right-nav">
+                <a href="#!"><i class="fa-solid fa-circle-half-stroke"></i></a>
+                <a href="#!"><i class="fa-solid fa-earth-americas"></i></a>
+                <a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left-side-bar">
+                <div class="search">
+                    <!-- <label for="fname">First name:</label> -->
+                    <input
+                        type="search"
+                        id="fname"
+                        name="fname"
+                        placeholder="Search..." />
+                </div>
+                <div class="title">
+                    <h2>HOW TO</h2>
+                    <a href="#!">HowTo Home</a>
+                </div>
+                <ul class="group-list">
+                    <li class="group-item">
+                        <h3 class="sub-title">Menus</h3>
+                        <ul class="nav-list">
+                            <li class="nav-item">Icon Bar</li>
+                            <li class="nav-item">Menu Icon</li>
+                            <li class="nav-item">Accordion</li>
+                            <li class="nav-item">Tabs</li>
+                            <li class="nav-item">Vertical Tabs</li>
+                            <li class="nav-item">Tab Headers</li>
+                            <li class="nav-item">Full Page Tabs</li>
+                            <li class="nav-item">Hover Tabs</li>
+                            <li class="nav-item">Top Navigation</li>
+                            <li class="nav-item active">Responsive TopNav</li>
+                        </ul>
+                    </li>
+                    <li class="group-item">
+                        <h3 class="sub-title">Images</h3>
+                        <ul class="nav-list">
+                            <li class="nav-item">Slideshow</li>
+                            <li class="nav-item">Slideshow Gallery</li>
+                            <li class="nav-item">Modal Images</li>
+                            <li class="nav-item">Lightbox</li>
+                            <li class="nav-item">Responsive Image Grid</li>
+                            <li class="nav-item">Tab Headers</li>
+                            <li class="nav-item">Full Page Tabs</li>
+                            <li class="nav-item">Hover Tabs</li>
+                            <li class="nav-item">Top Navigation</li>
+                            <li class="nav-item">Responsive TopNav</li>
+                        </ul>
+                    </li>
+                    <li class="group-item">
+                        <h3 class="sub-title">Buttons</h3>
+                        <ul class="nav-list">
+                            <li class="nav-item">Icon Bar</li>
+                            <li class="nav-item">Menu Icon</li>
+                            <li class="nav-item">Accordion</li>
+                            <li class="nav-item">Tabs</li>
+                            <li class="nav-item">Vertical Tabs</li>
+                            <li class="nav-item">Tab Headers</li>
+                            <li class="nav-item">Full Page Tabs</li>
+                            <li class="nav-item">Hover Tabs</li>
+                            <li class="nav-item">Top Navigation</li>
+                            <li class="nav-item">Responsive TopNav</li>
+                        </ul>
+                    </li>
+                    <li class="group-item">
+                        <h3 class="sub-title">Forms</h3>
+                        <ul class="nav-list">
+                            <li class="nav-item">Icon Bar</li>
+                            <li class="nav-item">Menu Icon</li>
+                            <li class="nav-item">Accordion</li>
+                            <li class="nav-item">Tabs</li>
+                            <li class="nav-item">Vertical Tabs</li>
+                            <li class="nav-item">Tab Headers</li>
+                            <li class="nav-item">Full Page Tabs</li>
+                            <li class="nav-item">Hover Tabs</li>
+                            <li class="nav-item">Top Navigation</li>
+                            <li class="nav-item">Responsive TopNav</li>
+                        </ul>
+                    </li>
+                    <li class="group-item">
+                        <h3 class="sub-title">Forms</h3>
+                        <ul class="nav-list">
+                            <li class="nav-item">Icon Bar</li>
+                            <li class="nav-item">Menu Icon</li>
+                            <li class="nav-item">Accordion</li>
+                            <li class="nav-item">Tabs</li>
+                            <li class="nav-item">Vertical Tabs</li>
+                            <li class="nav-item">Tab Headers</li>
+                            <li class="nav-item">Full Page Tabs</li>
+                            <li class="nav-item">Hover Tabs</li>
+                            <li class="nav-item">Top Navigation</li>
+                            <li class="nav-item">Responsive TopNav</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <h1>How TO - Responsive Top Navigation</h1>
+                <div class="right-side-bar">
+                    <img
+                        src="https://www.w3schools.com/images/img_mylearning_300.png"
+                        alt="image" />
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>

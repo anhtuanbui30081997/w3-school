@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap"
+            rel="stylesheet" />
+        <!-- font icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Hover Tabs</title>
+    </head>
+    <body>
+        <div class="main-content">
+            <div class="side-tabs">
+                <a
+                    href="#!"
+                    class="tab-link"
+                    onmouseover="showTabContent('laptop')"
+                    ><i class="fa-solid fa-laptop"></i> Laptop, Tabnet,
+                    Mobile</a
+                >
+                <a
+                    href="#!"
+                    class="tab-link"
+                    onmouseover="showTabContent('phukien')"
+                    ><i class="fa-brands fa-usb"></i> Phụ kiện Laptop, PC,
+                    Mobile</a
+                >
+                <a
+                    href="#!"
+                    class="tab-link"
+                    onmouseover="showTabContent('game')"
+                    ><i class="fa-solid fa-gamepad"></i> Máy chơi game, Tay
+                    game</a
+                >
+                <a
+                    href="#!"
+                    class="tab-link"
+                    onmouseover="showTabContent('loa')"
+                    ><i class="fa-solid fa-volume-high"></i> Loa, Tai nghe, Mic,
+                    Webcam</a
+                >
+            </div>
+            <div class="tab-content-container">
+                <div class="tab-content" id="laptop">
+                    <div class="col-5">
+                        <h3 class="title">Laptop theo hãng</h3>
+                        <a href="#!">Laptop Aser</a>
+                        <a href="#!">Laptop Asus</a>
+                        <a href="#!">Laptop Dell</a>
+                        <a href="#!">Laptop HP</a>
+                        <a href="#!">Laptop Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Laptop Gaming theo hãng</h3>
+                        <a href="#!">Laptop Gaming Aser</a>
+                        <a href="#!">Laptop Gaming Asus</a>
+                        <a href="#!">Laptop Gaming Dell</a>
+                        <a href="#!">Laptop Gaming HP</a>
+                        <a href="#!">Laptop Gaming Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Laptop theo khoảng giá</h3>
+                        <a href="#!">Dưới 10 triệu</a>
+                        <a href="#!">10 triệu - 15 triệu</a>
+                        <a href="#!">15 triệu - 20 triệu</a>
+                        <a href="#!">20 triệu - 25 triệu</a>
+                        <a href="#!">25 triệu - 30 triệu</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Laptop theo cấu hình</h3>
+                        <a href="#!">CPU</a>
+                        <a href="#!">VGA</a>
+                        <a href="#!">RAM</a>
+                        <a href="#!">Kích thước màn hình</a>
+                        <a href="#!">Độ phân giải màn hình</a>
+                    </div>
+                    <div class="col-5 branch">
+                        <a href="#!">
+                            <img src="./assets/img/acer.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/apple.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/asus.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/dell.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/hp.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/msi.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="phukien">
+                    <div class="col-5">
+                        <h3 class="title">Phụ kiện laptop</h3>
+                        <a href="#!">Laptop Aser</a>
+                        <a href="#!">Laptop Asus</a>
+                        <a href="#!">Laptop Dell</a>
+                        <a href="#!">Laptop HP</a>
+                        <a href="#!">Laptop Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Balo, Cặp Túi laptop</h3>
+                        <a href="#!">Laptop Gaming Aser</a>
+                        <a href="#!">Laptop Gaming Asus</a>
+                        <a href="#!">Laptop Gaming Dell</a>
+                        <a href="#!">Laptop Gaming HP</a>
+                        <a href="#!">Laptop Gaming Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Phụ kiện Gaming</h3>
+                        <a href="#!">Dưới 10 triệu</a>
+                        <a href="#!">10 triệu - 15 triệu</a>
+                        <a href="#!">15 triệu - 20 triệu</a>
+                        <a href="#!">20 triệu - 25 triệu</a>
+                        <a href="#!">25 triệu - 30 triệu</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Dây cáp các loại</h3>
+                        <a href="#!">CPU</a>
+                        <a href="#!">VGA</a>
+                        <a href="#!">RAM</a>
+                        <a href="#!">Kích thước màn hình</a>
+                        <a href="#!">Độ phân giải màn hình</a>
+                    </div>
+                    <div class="col-5 branch">
+                        <a href="#!">
+                            <img src="./assets/img/acer.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/apple.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/asus.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/dell.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/hp.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/msi.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="game">
+                    <div class="col-5">
+                        <h3 class="title">Tay cầm chơi game</h3>
+                        <a href="#!">Laptop Aser</a>
+                        <a href="#!">Laptop Asus</a>
+                        <a href="#!">Laptop Dell</a>
+                        <a href="#!">Laptop HP</a>
+                        <a href="#!">Laptop Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Máy chơi game</h3>
+                        <a href="#!">Laptop Gaming Aser</a>
+                        <a href="#!">Laptop Gaming Asus</a>
+                        <a href="#!">Laptop Gaming Dell</a>
+                        <a href="#!">Laptop Gaming HP</a>
+                        <a href="#!">Laptop Gaming Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Đĩa Game</h3>
+                        <a href="#!">Dưới 10 triệu</a>
+                        <a href="#!">10 triệu - 15 triệu</a>
+                        <a href="#!">15 triệu - 20 triệu</a>
+                        <a href="#!">20 triệu - 25 triệu</a>
+                        <a href="#!">25 triệu - 30 triệu</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Phụ kiện game</h3>
+                        <a href="#!">CPU</a>
+                        <a href="#!">VGA</a>
+                        <a href="#!">RAM</a>
+                        <a href="#!">Kích thước màn hình</a>
+                        <a href="#!">Độ phân giải màn hình</a>
+                    </div>
+                    <div class="col-5 branch">
+                        <a href="#!">
+                            <img src="./assets/img/acer.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/apple.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/asus.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/dell.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/hp.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/msi.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="loa">
+                    <div class="col-5">
+                        <h3 class="title">Loa</h3>
+                        <a href="#!">Laptop Aser</a>
+                        <a href="#!">Laptop Asus</a>
+                        <a href="#!">Laptop Dell</a>
+                        <a href="#!">Laptop HP</a>
+                        <a href="#!">Laptop Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Tai nghe</h3>
+                        <a href="#!">Laptop Gaming Aser</a>
+                        <a href="#!">Laptop Gaming Asus</a>
+                        <a href="#!">Laptop Gaming Dell</a>
+                        <a href="#!">Laptop Gaming HP</a>
+                        <a href="#!">Laptop Gaming Apple</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Microphone</h3>
+                        <a href="#!">Dưới 10 triệu</a>
+                        <a href="#!">10 triệu - 15 triệu</a>
+                        <a href="#!">15 triệu - 20 triệu</a>
+                        <a href="#!">20 triệu - 25 triệu</a>
+                        <a href="#!">25 triệu - 30 triệu</a>
+                    </div>
+                    <div class="col-5">
+                        <h3 class="title">Webcam</h3>
+                        <a href="#!">CPU</a>
+                        <a href="#!">VGA</a>
+                        <a href="#!">RAM</a>
+                        <a href="#!">Kích thước màn hình</a>
+                        <a href="#!">Độ phân giải màn hình</a>
+                    </div>
+                    <div class="col-5 branch">
+                        <a href="#!">
+                            <img src="./assets/img/acer.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/apple.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/asus.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/dell.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/hp.png" alt="" />
+                        </a>
+                        <a href="#!">
+                            <img src="./assets/img/msi.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>

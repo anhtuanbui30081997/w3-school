@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body {
+    display: flex;
+}
+
+.tabs {
+    width: 20vw;
+    list-style: none;
+    background: #ebebeb;
+    border: 1px solid #bbb;
+}
+
+.tabs .tab-link a {
+    display: block;
+    font-size: 2rem;
+    color: #000;
+    padding: 20px;
+}
+
+.tabs .tab-link a:hover {
+    background: #999;
+}
+
+.tabs .tab-link.active {
+    background: #666;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #bbb;
+    margin-right: auto;
+    width: 80vw;
+    border-left: none;
+}
+.tab-content .city {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.tab-content .desc {
+    margin-top: 16px;
+    font-size: 2rem;
+    line-height: 1.67;
+}

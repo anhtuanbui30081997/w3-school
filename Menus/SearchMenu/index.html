@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- font family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,500&display=swap"
+            rel="stylesheet" />
+        <!-- font icon -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Seach Menu</title>
+    </head>
+    <body>
+        <h2>Search Menu</h2>
+        <p>
+            Start to type for a specific category inside the search bar to
+            "filter" the search options.
+        </p>
+
+        <div class="row">
+            <div class="left">
+                <h2 class="menu">Menu</h2>
+                <input
+                    id="my-search"
+                    type="text"
+                    class="search"
+                    title="Type in a category"
+                    placeholder="Search ..."
+                    onkeyup="handleSearch()" />
+                <ul id="my-menu">
+                    <li>
+                        <a href="#">HTML</a>
+                    </li>
+                    <li>
+                        <a href="#">CSS</a>
+                    </li>
+                    <li>
+                        <a href="#">JavaScript</a>
+                    </li>
+                    <li>
+                        <a href="#">PHP</a>
+                    </li>
+                    <li>
+                        <a href="#">Python</a>
+                    </li>
+                    <li>
+                        <a href="#">jQuery</a>
+                    </li>
+                    <li>
+                        <a href="#">SQL</a>
+                    </li>
+                    <li>
+                        <a href="#">Bootstrap</a>
+                    </li>
+                    <li>
+                        <a href="#">Node.js</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <h2 class="title">Page Content</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Deserunt facere eius dicta temporibus sunt eligendi in et
+                    quos. Reiciendis, odio?
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Deserunt facere eius dicta temporibus sunt eligendi in et
+                    quos. Reiciendis, odio?
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Deserunt facere eius dicta temporibus sunt eligendi in et
+                    quos. Reiciendis, odio?
+                </p>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>

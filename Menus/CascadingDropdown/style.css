@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form1 select {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vertical-menu {
+    background: #ebebeb;
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+}
+
+.vertical-menu a {
+    display: block;
+    color: black;
+    padding: 16px;
+    background: #eee;
+}
+
+.vertical-menu a:hover:not(.active) {
+    background: #ccc;
+}
+
+.vertical-menu a.active {
+    background: #04aa6d;
+    color: #fff;
+}

@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tabs {
+    margin: 20px;
+    display: flex;
+    background-color: #f1f1f1;
+    position: relative;
+    border: 1px solid #333;
+}
+
+.tab-link {
+    padding: 20px 22px;
+    background-color: #999;
+    color: #fff;
+}
+
+.tab-link:hover {
+    background-color: #666;
+}
+
+.desc {
+    display: none;
+    border: 1px solid #333;
+    position: absolute;
+    width: calc(100% + 2px);
+    top: 58px;
+    left: -1px;
+    padding: 16px;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+.desc h3 {
+    margin: 8px 0;
+}
+
+.tab-link.active {
+    background-color: #333;
+}
+
+.desc.active {
+    display: block;
+    background-color: #fff;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

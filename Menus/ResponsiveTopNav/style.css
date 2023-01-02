@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #ebebeb;
+}
+
+.top-nav {
+    background-color: #0d1721;
+    margin-top: 50px;
+    display: flex;
+}
+
+a {
+    display: inline-block;
+    color: #f1f1f1;
+    font-size: 1.7rem;
+    text-decoration: none;
+    background: #0d1721;
+    padding: 10px 15px 9px;
+    white-space: nowrap;
+}
+
+a:active {
+    background: #04aa6d;
+}
+
+a:hover {
+    background: #000;
+}
+
+a.active {
+    background: #04aa6d;
+}
+
+.left-nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left-nav a:first-child {
+    display: none;
+}
+
+.right-nav {
+    position: fixed;
+    right: 0;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    color: #fff;
+    background: #1d2a35;
+    height: 10000px;
+}
+
+.main-content {
+    width: calc(100vw - 220px);
+    display: flex;
+    background: #1d2a35;
+    padding: 20px 0 20px 20px;
+}
+
+.right-side-bar {
+    background: #1d2a35;
+    border-left: 1px solid #38444d;
+    width: 20%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-side-bar img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    max-width: 80%;
+    object-fit: cover;
+}
+
+.left-side-bar {
+    width: 220px;
+}
+
+/*  left side bar */
+.left-side-bar {
+    background: #15202b;
+}
+
+.title h2 {
+    font-weight: 400;
+    font-size: 21px;
+    padding-left: 16px;
+    margin: -4px 0 4px 0;
+    width: 204px;
+}
+
+.title a {
+    background: transparent;
+    text-decoration: none;
+    display: block;
+    padding: 2px 1px 1px 16px;
+}
+
+.search input {
+    padding: 18px 16px;
+    margin: 16px 2px;
+    display: block;
+    width: 100%;
+    height: 25px;
+    font-size: 1.6rem;
+}
+ul {
+    list-style: none;
+}
+
+.group-list {
+    margin-top: 20px;
+}
+
+.group-item {
+    margin-top: 25px;
+}
+
+.sub-title {
+    font-size: 2.1rem;
+    padding-left: 16px;
+}
+
+.nav-list {
+    margin-top: 10px;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    padding: 3px 1px 2px 16px;
+}
+
+.nav-item:hover {
+    background: #38444d;
+}
+
+.nav-item.active {
+    background: #04aa6d;
+}
+
+.content.responsive {
+    position: relative;
+}
+
+.responsive .left-side-bar {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 990px) {
+    .left-nav a:first-child {
+        display: block;
+    }
+    .right-side-bar,
+    .left-side-bar {
+        display: none;
+    }
+}

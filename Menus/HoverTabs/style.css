@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #ebebeb;
+    width: 100%;
+}
+
+.main-content {
+    margin-top: 60px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.side-tabs {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    width: 200px;
+}
+
+.side-tabs a {
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #333;
+    padding: 9px 0 9px 8px;
+}
+
+.tab-content-container {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-left: none;
+}
+
+.tab-content {
+    display: flex;
+    padding: 10px;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+.tab-content .title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: red;
+    margin-bottom: 5px;
+}
+
+.tab-content a {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    line-height: 1.67;
+}
+
+.tab-content .col-5.branch a {
+    display: inline-block;
+    width: 48%;
+}
+
+.tab-content img {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 1650px) {
+    .main-content {
+        width: 1650px;
+    }
+    .side-tabs {
+        width: 250px;
+    }
+}
